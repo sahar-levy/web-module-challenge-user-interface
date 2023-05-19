@@ -1,5 +1,5 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
-body {
+* {
   color: #3C373B;
 }
 
@@ -82,7 +82,7 @@ img {
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
-#about {
+.about {
   margin-top: 20px;
 }
 
@@ -99,7 +99,7 @@ img {
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
-.street-address {
+address {
   line-height: 2;
 }
 
@@ -129,7 +129,7 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
-.foot-anchor {
+footer a {
   margin: 10px;
   color: black;
   text-decoration: underline;
@@ -142,7 +142,7 @@ footer nav a:first-child {
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
 */
-.footer-content nav a:hover {
+footer nav a:hover {
   color: white;
 }
 
